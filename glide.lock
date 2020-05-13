@@ -1,6 +1,0 @@
-hash: 1187ca98844dfde7b8010fd25c81851a7addc8016815757417892426c94c1852
-updated: 2020-05-12T21:15:45.3744891-05:00
-imports:
-- name: github.com/codeaffect/tftd_api_go
-  version: 240abf168cb47525568e86b99123b5ccc997de0e
-testImports: []

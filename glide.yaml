@@ -1,3 +1,0 @@
-package: tftd_api_go
-import:
-- package: github.com/codeaffect/tftd_api_go
