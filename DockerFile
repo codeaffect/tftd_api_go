@@ -1,6 +1,8 @@
 FROM heroku/go-base:latest
 
 RUN mkdir /app
+ENV GOPATH /app/.cache/gotools
+ENV PATH $GOPATH/bin:$PATH
 ADD . /app
 WORKDIR /app
 RUN go build -o main .
